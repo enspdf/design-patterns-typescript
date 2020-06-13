@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:singleton": "mocha -r ts-node/register src/singleton/*.spec.ts",
+    "test:factory": "mocha -r ts-node/register src/factory/*.spec.ts"
+  },
+  "dependencies": {
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2"
+  }
+}
